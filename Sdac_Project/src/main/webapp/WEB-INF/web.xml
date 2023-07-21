@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Sdac_Project</display-name>
+    <welcome-file-list>
+    <welcome-file>Home.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+        <servlet-name> SignupController</servlet-name>
+        <servlet-class> com.sdac.signup.SignupController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> SignupController</servlet-name>
+        <url-pattern>/SignupController</url-pattern>
+    </servlet-mapping>
+    
+   <servlet>
+        <servlet-name> LoginController</servlet-name>
+        <servlet-class> com.sdac.login.LoginController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> LoginController</servlet-name>
+        <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+
+ <servlet>
+        <servlet-name> Delete</servlet-name>
+        <servlet-class> com.sdac.userPower.Delete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Delete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+  <servlet>
+        <servlet-name> ProductDetail</servlet-name>
+        <servlet-class> com.sdac.productDetails.ProductDetail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> ProductDetail</servlet-name>
+        <url-pattern>/ProductDetail</url-pattern>
+    </servlet-mapping>
+        <servlet>
+      <servlet-name> AssignRole</servlet-name>
+        <servlet-class> com.sdac.userDetails.AssignRole</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> AssignRole</servlet-name>
+        <url-pattern>/AssignRole</url-pattern>
+    </servlet-mapping>
+  
+     <servlet>
+        <servlet-name> AddProduct</servlet-name>
+        <servlet-class> com.sdac.productDetails.AddProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> AddProduct</servlet-name>
+        <url-pattern>/AddProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> UserDetail</servlet-name>
+        <servlet-class> com.sdac.userPower.UserDetail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> UserDetail</servlet-name>
+        <url-pattern>/UserDetail</url-pattern>
+    </servlet-mapping>
+
+   
+    <servlet>
+        <servlet-name> UserServlet</servlet-name>
+        <servlet-class>com.sdac.userDetails.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+   
+   
+   <servlet>
+        <servlet-name>Analyst</servlet-name>
+        <servlet-class>com.sdac.analystPower.Analyst</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Analyst</servlet-name>
+        <url-pattern>/Analyst</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+        <servlet-name> DeleteAnalysis</servlet-name>
+        <servlet-class> com.sdac.analystPower.DeleteAnalysis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> DeleteAnalysis</servlet-name>
+        <url-pattern>/DeleteAnalysis</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name> AddAnalysis</servlet-name>
+        <servlet-class>com.sdac.analystPower.AddAnalysis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> AddAnalysis</servlet-name>
+        <url-pattern>/AddAnalysis</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name> ReportGenerate</servlet-name>
+        <servlet-class>com.sdac.common.ReportGenerate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> ReportGenerate</servlet-name>
+        <url-pattern>/ReportGenerate</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> UpdateUserFeedback</servlet-name>
+        <servlet-class>com.sdac.userPower.UpdateUserFeedback</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> UpdateUserFeedback</servlet-name>
+        <url-pattern>/UpdateUserFeedback</url-pattern>
+    </servlet-mapping>
+
+
+     
+     <servlet>
+        <servlet-name>DeleteProduct</servlet-name>
+        <servlet-class>com.sdac.common.DeleteProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> DeleteProduct</servlet-name>
+        <url-pattern>/DeleteProduct</url-pattern>
+    </servlet-mapping>
+
+</web-app>

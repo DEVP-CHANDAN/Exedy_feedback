@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Home Page</title>
+  <style>
+  body{
+    overflow:hidden;
+    font-family:"Lucida handwriting",cursive";
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url("https://www.shutterstock.com/image-illustration/blue-light-color-gradient-background-260nw-1511769134.jpg");
+  }
+    .container {
+      text-align: center;
+      font-style: oblique;
+      font-size: 25px;
+    }
+    
+    .btn-primary{
+   align-items: center;
+    background-color: #2952d1;
+;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 26px;
+  height: 50px;
+  justify-content: center;
+  line-height: 30px;
+  max-width:25%;
+  padding: 0 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation
+  
+
+    
+    }
+   
+    .btn-secondary{
+      background-color: #2952d1;
+      align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color:white;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 26px;
+  height: 50px;
+  justify-content: center;
+  line-height: 30px;
+  max-width:25%;
+  padding: 0 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation
+    }
+   
+ /*   .btn-primary:after {
+      
+       background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 50px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+  
+       }
+       
+        .btn-secondary:after{
+            background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 50px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+       }
+       .btn-primary:hover:after{
+       transform:transkate(0,0);}
+       
+       .btn-secondary:hover:after{
+       transform:transkate(0,0);} */
+       .btn-primary:hover{
+        background-color: #ed236f;
+        }
+        .btn-secondary:hover{
+         background-color: #ed236f;
+         }
+         
+         .btn-primary:active{
+          background-color: #111;
+          outline: 0;
+         }
+       
+        
+         .btn-secondary:active{
+          background-color: #111;
+          outline: 0;
+         }
+         .txt{
+           font-size:20px;
+           color: #2952d0;
+           margin-left: 12px;
+         }
+       .txt:hover {
+          color: #ed236f;
+       }
+
+    .cont{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center
+    }
+
+    .navbar-brand img {
+          height: 105px;
+    border-radius: 50%
+    }
+       
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="height: 77px;">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="https://www.akr-performance.com/assets/www.akr-performance.live/img/brands/exedy-racing.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="Home.html"> <span class="txt">Home </span> </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ProductDetail?role=viewer"> <span class="txt">Viewer </span> </a>
+            </li>
+             <li class="nav-item ">
+              <a class="nav-link" href="Login.jsp"> <span class="txt"> <span>Admin </span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container cont " style="margin-top:-100px">
+    <div class="row" style="flex-grow:1;align-items: center;">
+      <div class="col-md-6 " ">
+        <h1>Welcome to <b>EXEDY</b>.</h1>
+        <p>The leading company for drivetrain compnents </p>
+        <div class = "d-flex" style = "justify-content: center;">
+          <a href="Login.jsp" class="btn btn-primary mx-4">Login</a>
+          <a href="signup.jsp" class="btn btn-secondary">Register</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="https://cbmsigns.net/wp-content/uploads/2021/07/Exedy-1.jpg" alt="Company Image" style="border-radius: 50%; height: 370px;" class="img-fluid">
+      </div> 
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
